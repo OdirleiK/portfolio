@@ -1,0 +1,142 @@
+  /*===  contact  ===*/
+  .contact-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 115px;
+  }
+
+  .pic-cartoon-contact {
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+
+  .pic-cartoon-contact-img {
+    
+    height: 250px;
+    padding-left: 150px;
+  }
+
+  .contact-email {
+    padding-left: 180px;
+    color: var(--main-white);
+    font-weight: bold;
+  }
+
+  .git-contact {
+    text-align: center;
+    padding-right: 90px;
+    color: var(--main-red);
+    font-size: 40px;
+    margin-left: 230px;
+  }
+
+  .git-contact a:link {
+    color: var(--main-red);
+  }
+
+  .git-contact a:visited {
+    color: var(--main-red);
+  }
+
+  .form-contact {
+    padding-right: 50px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .msg-form {
+    font-weight: bold;
+    color: var(--main-white);
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .msg-form-sec {
+    color: var(--main-white);
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-nome {
+    margin-bottom: -25px;
+  }
+
+  .form-nome,
+  .form-email,
+  .form-txtarea {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 100px;
+    border-radius: 7px;
+    border-style: none;
+    border-left: 3px solid var(--main-red);
+    background-color: var(--main-form-grey);
+    margin-top: 10px;
+    color: var(--main-white)
+  }
+
+  .btn-sub-div {
+    text-align: center;
+  }
+
+  .btn-sub {
+    margin-top: 5px;
+    color: var(--main-red);
+    border: 2px solid var(--main-red);
+    border-radius: 7px;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .btn-sub:hover {
+    color: var(--main-white);
+    border: 2px solid var(--main-red);
+    background-color: var(--main-red);
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30%;
+      padding-bottom: 10%;
+    }
+
+    .pic-cartoon-contact {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .git-contact {
+      display: inline-flex;
+      flex-direction: row;
+      text-align: center;
+      color: var(--main-red);
+      font-size: 2.5rem;
+      margin: 0 !important;
+      padding: 0;
+      gap: 15px;
+    }
+
+    .form-contact {
+      width: 100%;
+      align-items: center;
+      align-content: center;
+      padding: 15px;
+    }
+  }

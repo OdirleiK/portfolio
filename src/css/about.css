@@ -1,0 +1,165 @@
+  /*===  about  ===*/
+  .about-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pic-about {
+    width: 40%;
+    height: 40%;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+  }
+
+  .localization {
+    font-size: 20px;
+    color: var(--main-white);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  .git-e-linkdin {
+    text-align: center;
+    padding-right: 90px;
+    color: var(--main-red);
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .git-e-linkdin a:link {
+    color: var(--main-red);
+  }
+
+  .git-e-linkdin a:visited {
+    color: var(--main-red);
+  }
+
+  .about-info {
+    margin-top: 60px;
+    width: 60%;
+    padding-left: 15px;
+    margin-left: 40px;
+    margin-right: 25px;
+  }
+
+  .about-h2 {
+    font-size: 2rem;
+    color: var(--main-red);
+  }
+
+  .p-about-me {
+    color: var(--main-white);
+  }
+
+  .formation-p {
+    color: var(--main-white);
+  }
+
+  .list-courses {
+    color: var(--main-white);
+    list-style: none;
+  }
+
+  .curriculum {
+    text-align: center;
+  }
+
+  .btn-curriculum {
+    color: var(--main-red);
+    border: 2px solid var(--main-red);
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .btn-curriculum:hover {
+    color: var(--main-white);
+    border: 2px solid var(--main-red);
+    background-color: var(--main-red);
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .pic-cartoon-contact-img {
+      padding: 0px !important;
+    }
+
+    .contact-email {
+      padding: 0px !important;
+    }
+
+    .pic-about {
+      width: 100%;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pic-about img {
+      width: 350px;
+      margin-top: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .localization {
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: row;
+      color: var(--main-white);
+      margin-bottom: 10px;
+    }
+
+    .git-e-linkdin {
+      display: inline-flex;
+      flex-direction: row;
+      text-align: center;
+      color: var(--main-red);
+      font-size: 2.5rem;
+      margin-bottom: 10%;
+      gap: 15px;
+      padding: 0;
+    }
+
+    .about-info {
+      margin-top: 5%;
+      width: 70%;
+      padding: 0;
+    }
+
+    .btn-curriculum {
+      margin-top: 15%;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+  @media screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+    .pic-about {
+      width: 100%;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .pic-about img {
+      width: 350px;
+      margin-top: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }

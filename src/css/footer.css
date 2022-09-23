@@ -1,0 +1,11 @@
+  /*===  footer  ===*/
+  footer {
+    background-color: var(--main-bg-grey);
+  }
+
+  .p-footer {
+    color: var(--main-white);
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+  }

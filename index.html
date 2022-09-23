@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/img/favicon-16x16.png">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/nav.css">
+    <link rel="stylesheet" href="/src/css/home.css">
+    <link rel="stylesheet" href="/src/css/projects.css">
+    <link rel="stylesheet" href="/src/css/about.css">
+    <link rel="stylesheet" href="/src/css/contact.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <link rel="stylesheet" href="/src/css/animation.css">
+    <title>Odirlei Kempfer - Portfólio</title>
+</head>
+<header id="header">
+    <a id="logo" href="https://www.linkedin.com/in/odirlei-kempfer-994132163/">Odirlei</a>
+    <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+            aria-expanded="false">Menu
+            <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+            <li><a href="#home" class="nav-links">Início</a></li>
+            <li><a href="#projects" class="nav-links">Projetos</a></li>
+            <li><a href="#about" class="nav-links">Sobre</a></li>
+            <li><a href="#contact" class="nav-links">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <section id="home" class="cover">
+            <div class="flex-container">
+                <div class="main-text">
+                    <p class="p-main">Olá! Eu sou o...</p>
+                    <h1 class="h1-main">Odirlei Kempfer</h1>
+                </div>
+                <div class="pic-cartoon">
+                    <img src="/src/img/LOGOV1.png" alt="foto cartoon Odirlei">
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="projects-h2">MEUS PROJETOS</h2>
+            <div class="flex-projects" data-anime="left">
+                <div class="cards">
+                    <div class="card">
+                        <h2 class="card-title">Movie DAO</h2>
+                        <img src="/src/img/cardproject.png" alt="card dos projetos">
+                        <p class="card-desc">Site de filmes em um projeto de estudo feito em PHP,
+                            utilizando PDO com MySQL como banco de dados para criar conta, fazer login,
+                            adicionar filmes, fazer reviews e etc... <a href="https://github.com/OdirleiK/Movie"> confira o codigo :)</a></p>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">Get a Pet</h2>
+                        <img src="/src/img/cardproject.png" alt="card dos projetos">
+                        <p class="card-desc">Site de adoção de pet, utilizando Mongoose como banco de dados, para se
+                            cadastrar, incluir animais no banco para adoção, projeto ainda nao finalizado, mas ja pode conferir o
+                            codigo<a href="https://github.com/OdirleiK/getAPet"> clicando aqui:)</a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">DAO JDBC</h2>
+                        <img src="/src/img/cardproject.png" alt="card dos projetos">
+                        <p class="card-desc">Primeiro projeto em Java utilizando JDBC e MySQL <a
+                                href="https://github.com/OdirleiK/damo-dao-jdbc"> clicando aqui:)</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="projects">
+            <div class="about-flex" data-anime="left">
+                <div class="pic-about">
+                    <img class="pic-about-img" src="/src/img/fotoAboutV3.png" alt="foto Odirlei sobre">
+                    <p class="localization">Registro, Sao Paulo, Brasil</p>
+                    <div class="git-e-linkdin">
+                        <a href="https://github.com/OdirleiK"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/odirlei-kempfer-994132163/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="about-h">
+                        <h2 class="about-h2">Sobre mim</h2>
+                        <p class="p-about-me">Iniciei os estudos em programação em janeiro de 2022 e atualmente faço faculdade de ADS EAD.
+                            Busco me aprimorar a cada dia, sempre praticando e estudando. Atualmente, trabalho com Node.js, PHP
+                            JS, HTML, CSS, MySQL, e estou aprendendo Java. Estou em busca da minha primeira oportunidade no mercado.
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="about-h2">Formação</h2>
+                        <div class="formation-p">
+                            <p>Analise e desenvolvimento de sistemas</p>
+                            <p>Cruzeiro do sul</p>
+                            <p>2022 ~ 2023 </p>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <h2 class="about-h2">Cursos</h2>
+                        <ul class="list-courses">
+                            <li>Algoritmo - Curso em video - 40hrs</li>
+                            <li>PHP - Udemy - 33hrs</li>
+                            <li>Node.Js - Udemy - 37hrs</li>
+                            <li>Java - Udemy - 53hrs</li>
+                            <li>Html e CSS - alura - 32hrs</li>
+                        </ul>
+                    </div>
+                    <div class="curriculum">
+                        <a href="/src/pdf/curriculo.pdf" download="">
+                            <button class="btn-curriculum">Download Cv <i
+                                    class="fa-solid fa-file-arrow-down"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="projects">
+            <div class="contact-flex" data-anime="left">
+                <div class="pic-cartoon-contact">
+                    <img class="pic-cartoon-contact-img" src="/src/img/LOGOV1.png" alt="foto Odirlei contato">
+                    <p class="contact-email">odirlei67777@gmail.com</p>
+                    <div class="git-contact">
+                        <a href="https://github.com/OdirleiK"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/odirlei-kempfer-994132163/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <p class="msg-form">Me mande um e-mail!</p>
+                    <p class="msg-form-sec">Será um prazer falar com você!</p>
+                    <span class="msg-js"></span>
+                    <form action="https://formsubmit.co/odirlei67777@gmail.com" method="POST" class="form-input">
+                        <input class="form-nome" type="text" id="name" name="name" placeholder="Nome" required><br>
+                        <input class="form-email" type="email" id="email" name="email" placeholder="Email" required>
+                        <textarea class="form-txtarea" name="textarea" id="txtarea" cols="23" rows="3"
+                            placeholder="Mensagem" required></textarea>
+                        <button class="btn-sub" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="projects">
+        <p class="p-footer">
+            ©Odirlei Kempfer 2022
+        </p>
+    </footer>
+    <script src="/js/animation.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/animationName.js"></script>
+    <script src="/js/menuHb.js"></script>
+    <script src="https://kit.fontawesome.com/ee80929762.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
