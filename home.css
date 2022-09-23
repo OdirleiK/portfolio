@@ -1,6 +1,6 @@
 /*===  home  ===*/
 .main-bg {
-    background-image: url(bgHome.png);
+    background-image: url(/bgHome.png);
   }
 
   .flex-container {
@@ -49,7 +49,7 @@
   }
 
   .cover {
-    background-image: url(/src/img/bgHome.png);
+    background-image: url(bgHome.png);
     background-size: cover;
     width: 100%;
     height: 100vh;
